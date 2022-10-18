@@ -1,0 +1,59 @@
+body {
+  background-color: darkgray;
+}
+
+.Dice_Body {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  }
+
+.Dice_Body{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Dice_Dot {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.one {
+  left: 20%;
+  top: 10%;
+}
+
+.two {
+  right: 20%;
+  top: 10%;
+}
+
+.three {
+  left: 20%;
+  top: 42%;
+}
+
+.four {
+  right: 20%;
+  top: 42%;
+}
+
+.five {
+  left: 20%;
+  bottom: 10%;
+}
+
+.six {
+  right: 20%;
+  bottom: 10%;
+}
